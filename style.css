@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width: 360px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #ddd;
+    overflow: hidden;
+    background: #333;
+}
+
+.input-box {
+    width: 100%;
+    height: 20%;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3rem;
+    text-align: right;
+    border: none;
+    color: #fff;
+}
+
+.result {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.result button {
+    cursor: pointer;
+    font-size: 1.6rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 30rem;
+    background: #7a7a7a;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.result .orange {
+    background: #ffae00;
+}
+
